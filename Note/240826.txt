@@ -1,0 +1,27 @@
+search
+O(n)
+O(logn)
+
+Sort
+O(nlogn)
+O(n^2)
+
+bst
+left child small
+right child big
+
+sorting
+searching
+string processing
+graph problems
+combinatatorial
+geometric
+numerical
+
+graph representation:
+adjacency matrix
+adjacency lists
+
+weighted graph: graph with numbers assigned to its edges
+
+A tree is a connected acyclic graph
