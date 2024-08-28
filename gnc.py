@@ -15,4 +15,4 @@ def gnc(m,n):
 
     return output
 
-print(gnc(12,18))
+
