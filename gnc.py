@@ -9,9 +9,11 @@ def gnc(m,n):
     else:
         shorter = b
         longer = a
-    for i in shorter:
-        if i in shorter and i in longer:
-            output.append(i)
+    for i in range(len(shorter)):
+        for j in range(len(longer)):
+            if shorter[i] == longer[j]:
+                output.append(shorter[i])
+                longer[j] = 0
 
     return output
 

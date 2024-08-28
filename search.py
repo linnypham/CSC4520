@@ -21,3 +21,9 @@ def binarySearch(arr, x):
 
     # If we reach here, then the element was not present
     return -1
+
+def linearSearch(arr,x):
+    for i in range(len(arr)):
+        if arr[i] == x:
+            return i
+    return -1   
