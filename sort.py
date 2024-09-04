@@ -11,6 +11,7 @@ def insertionSort(arr):
             arr[j + 1] = arr[j]  # Shift elements to the right
             j -= 1
         arr[j + 1] = key
+
 def bubbleSort(arr):
 
     # Outer loop to iterate through the list n times
@@ -23,6 +24,7 @@ def bubbleSort(arr):
                 # Swap elements if they are in the wrong order
                 swapped = True
                 arr[i], arr[i + 1] = arr[i + 1], arr[i]
+                
 def quickSort(array, low, high):
     def partition(array, low, high):
 
