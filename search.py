@@ -23,7 +23,22 @@ def binarySearch(arr, x):
     return -1
 
 def linearSearch(arr,x):
+
     for i in range(len(arr)):
         if arr[i] == x:
             return i
     return -1   
+
+def searchMax(arr):
+    maxValue = arr[0]
+    for i in range(1,len(arr)):
+        maxValue = max(maxValue,arr[i])
+    return maxValue
+
+def verifyUnique(arr):
+    unique = set()
+    for i in arr:
+        if i in unique:
+            return False
+        unique.add(i)
+    return True

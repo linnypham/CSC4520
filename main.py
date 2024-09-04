@@ -1,10 +1,6 @@
 import numpy as np 
 from matplotlib import pyplot as plt 
+from search import verifyUnique
 
-x = np.arange(1,11) 
-y = 2 * x + 5 
-plt.title("Matplotlib demo") 
-plt.xlabel("x axis caption") 
-plt.ylabel("y axis caption") 
-plt.plot(x,y) 
-plt.show()
+arr = [1,4,5,6,7]
+print(verifyUnique(arr))
