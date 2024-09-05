@@ -1,6 +1,4 @@
-import numpy as np 
-from matplotlib import pyplot as plt 
-from search import verifyUnique
+from mathFunction import circumferenceCircle, areaCircle
+print(circumferenceCircle(15))
+print(areaCircle(15))
 
-arr = [1,4,5,6,7]
-print(verifyUnique(arr))
