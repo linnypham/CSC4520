@@ -1,3 +1,5 @@
-from recursive import power
+from blackjack import blackjack
 
-print(power(2,3))
+player = [10,11]
+dealer = 7
+print(blackjack(player,dealer))
