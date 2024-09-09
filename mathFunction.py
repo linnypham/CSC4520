@@ -7,9 +7,9 @@ def quadratic(a,b,c):
     return x1,x2
 
 def circumferenceCircle(radius):
-    result = 2 * pi * radius
-    return result
+    return 2 * pi * radius
+    
 
 def areaCircle(radius):
-    result = pi * radius**2
-    return result
+    return pi * radius**2
+    
