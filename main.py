@@ -1,4 +1,3 @@
-from mathFunction import circumferenceCircle, areaCircle
-print(circumferenceCircle(15))
-print(areaCircle(15))
+from recursive import power
 
+print(power(2,3))
