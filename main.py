@@ -1,2 +1,4 @@
-from recursive import function
-print(function(3))
+from converter import toBinary,toHex
+
+print(toHex(200))
+print(toBinary(1001))
