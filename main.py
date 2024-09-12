@@ -1,4 +1,4 @@
 from converter import toBinary,toHex
 
-print(toHex(200))
-print(toBinary(1001))
+print(toHex(2024))
+print(toBinary(2024))
