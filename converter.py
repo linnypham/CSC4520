@@ -3,8 +3,8 @@ def toBinary(number):
     while number > 0:
         remainder = number % 2
         number//=2
-        binary.append(remainder)
-    return binary[::-1]
+        binary.append(str(remainder))
+    return ''.join(binary[::-1])
 
 def toHex(number):
     hex = []
@@ -13,7 +13,7 @@ def toHex(number):
         remainder = number % 16
         number//=16
         if remainder in range(0,10):
-            hex.append(remainder)
+            hex.append(str(remainder))
         else:
             hex.append(dictionary[remainder])
-    return hex[::-1]
+    return ''.join(hex[::-1])
