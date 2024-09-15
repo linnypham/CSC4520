@@ -1,4 +1,5 @@
 def blackjack(player, dealer):
+
     hand = sum(player)
 
     if hand == 21:
@@ -117,3 +118,18 @@ def blackjack(player, dealer):
         return 'Hit'
     else:  # 8 always hits
         return 'Hit'
+
+
+dealer = int(input('dealer: '))
+a = None
+player = []
+while len(player)<2:
+    a = int(input('Player:'))
+    player.append(a)
+result = blackjack(player,dealer)
+print(result)
+while result == 'Hit':
+    a = int(input('Player:'))
+    player.append(a)
+    result = blackjack(player,dealer)
+    print(result)
