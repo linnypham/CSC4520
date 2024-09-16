@@ -42,3 +42,22 @@ def verifyUnique(arr):
             return False
         unique.add(i)
     return True
+
+def matchingPattern(pattern, text):
+    patternArr = ''.split(pattern)
+    textArr = ''.split(text)
+
+    n = len(patternArr)
+    m = len(textArr)
+
+    if m>n:
+        return False
+
+    for i in range(0,m-n):
+        if textArr[i] == patternArr[0]:
+            for j in range(n):
+                if text[i+j] != pattern[j]:
+                    break
+                return i
+        return False
+                

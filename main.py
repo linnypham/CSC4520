@@ -1,4 +1,4 @@
-from sort import *
-array  = [89,45,68,90,29,34,17]
-bubbleSort(array)
-print(array)
+from search import *
+pattern = 'love'
+text = 'I love you'
+matchingPattern(pattern,text)
