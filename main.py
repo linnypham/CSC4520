@@ -1,4 +1,2 @@
-from search import *
-pattern = 'love'
-text = 'I love you'
-matchingPattern(pattern,text)
+from prime import *
+print(sieve_of_eratosthenes(50))
