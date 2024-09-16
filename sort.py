@@ -11,20 +11,24 @@ def insertionSort(arr):
             arr[j + 1] = arr[j]  # Shift elements to the right
             j -= 1
         arr[j + 1] = key
-
 def bubbleSort(arr):
+    n = len(arr)
+    
+    # Traverse through all array elements
+    for i in range(n):
+        swapped = False
 
-    # Outer loop to iterate through the list n times
-    for n in range(len(arr) - 1, 0, -1):
+        # Last i elements are already in place
+        for j in range(0, n-i-1):
 
-        # Inner loop to compare adjacent elements
-        for i in range(n):
-            if arr[i] > arr[i + 1]:
-
-                # Swap elements if they are in the wrong order
+            # Traverse the array from 0 to n-i-1
+            # Swap if the element found is greater
+            # than the next element
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
                 swapped = True
-                arr[i], arr[i + 1] = arr[i + 1], arr[i]
-                
+        if (swapped == False):
+            break
 def quickSort(array, low, high):
     def partition(array, low, high):
 
@@ -62,3 +66,17 @@ def quickSort(array, low, high):
 
         # Recursive call on the right of pivot
         quickSort(array, pi + 1, high)
+def selectionSort(arr):
+    # Traverse through all array elements
+    for i in range(len(arr)-1):
+        
+        # Find the minimum element in remaining 
+        # unsorted array
+        min_idx = i
+        for j in range(i+1, len(arr)):
+            if arr[min_idx] > arr[j]:
+                min_idx = j
+                
+        # Swap the found minimum element with 
+        # the first element        
+        arr[i], arr[min_idx] = arr[min_idx], arr[i]
