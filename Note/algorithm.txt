@@ -1,0 +1,11 @@
+sort:
+    brute force
+    selection sort
+    bubble sort
+
+search:
+    exhaustive search 
+        traveling salesman problem
+
+string matching
+closet pair problem

@@ -11,16 +11,12 @@ def insertionSort(arr):
             arr[j + 1] = arr[j]  # Shift elements to the right
             j -= 1
         arr[j + 1] = key
+
 def bubbleSort(arr):
     n = len(arr)
-    
-    # Traverse through all array elements
-    for i in range(n):
+    for i in range(n):# Traverse through all array elements
         swapped = False
-
-        # Last i elements are already in place
-        for j in range(0, n-i-1):
-
+        for j in range(0, n-i-1):# Last i elements are already in place
             # Traverse the array from 0 to n-i-1
             # Swap if the element found is greater
             # than the next element
@@ -29,6 +25,7 @@ def bubbleSort(arr):
                 swapped = True
         if (swapped == False):
             break
+
 def quickSort(array, low, high):
     def partition(array, low, high):
 
@@ -66,17 +63,12 @@ def quickSort(array, low, high):
 
         # Recursive call on the right of pivot
         quickSort(array, pi + 1, high)
-def selectionSort(arr):
-    # Traverse through all array elements
-    for i in range(len(arr)-1):
-        
-        # Find the minimum element in remaining 
-        # unsorted array
+
+def selectionSort(arr): #time:(n(n-1))/2
+    for i in range(len(arr)-1): # Traverse through all array elements
+        # Find the minimum element in remaining unsorted array
         min_idx = i
         for j in range(i+1, len(arr)):
             if arr[min_idx] > arr[j]:
                 min_idx = j
-                
-        # Swap the found minimum element with 
-        # the first element        
-        arr[i], arr[min_idx] = arr[min_idx], arr[i]
+        arr[i], arr[min_idx] = arr[min_idx], arr[i]# Swap the found minimum element with the first element  
