@@ -2,10 +2,12 @@ sort:
     brute force
     selection sort
     bubble sort
+    insertion sort
 
 search:
     exhaustive search 
-        traveling salesman problem
+        traveling salesman problem (Hamilton circuit)
+        knapsack problem
 
 string matching
 closet pair problem

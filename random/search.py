@@ -29,6 +29,15 @@ def linearSearch(arr,x):
             return i
     return -1   
 
+def sequentialSearch(arr, x):
+    i = 0
+    n = len(arr)
+    while i < n and arr[i] != x:
+        i += 1
+    if i < n:
+        return i
+    return -1
+
 def searchMax(arr):
     maxValue = arr[0]
     for i in range(1,len(arr)):
@@ -43,21 +52,5 @@ def verifyUnique(arr):
         unique.add(i)
     return True
 
-def matchingPattern(pattern, text):
-    patternArr = ''.split(pattern)
-    textArr = ''.split(text)
-
-    n = len(patternArr)
-    m = len(textArr)
-
-    if m>n:
-        return False
-
-    for i in range(0,m-n):
-        if textArr[i] == patternArr[0]:
-            for j in range(n):
-                if text[i+j] != pattern[j]:
-                    break
-                return i
-        return False
-                
+array = [1,2,3,4,5,6,7,8]
+print(sequentialSearch(array,5))

@@ -1,4 +1,4 @@
-def distance_two_points(a, b):
+def distance_two_points(a, b):#Euclidian Distance
     return (((a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2)) ** 0.5
 
 def closest_pair(points):
