@@ -29,15 +29,6 @@ def linearSearch(arr,x):
             return i
     return -1   
 
-def sequentialSearch(arr, x):
-    i = 0
-    n = len(arr)
-    while i < n and arr[i] != x:
-        i += 1
-    if i < n:
-        return i
-    return -1
-
 def searchMax(arr):
     maxValue = arr[0]
     for i in range(1,len(arr)):
@@ -52,5 +43,3 @@ def verifyUnique(arr):
         unique.add(i)
     return True
 
-array = [1,2,3,4,5,6,7,8]
-print(sequentialSearch(array,5))

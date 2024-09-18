@@ -6,3 +6,14 @@ def sequentialSearch(arr, x):
     if i < n:
         return i
     return -1
+
+def linearSearch(arr,x):
+    n = len(arr)
+    for i in range(n):
+        if arr[i] == x:
+            return i
+    return -1
+    
+a = [1,2,3,4,6,0]
+print(sequentialSearch(a,0))
+print(linearSearch(a,0))

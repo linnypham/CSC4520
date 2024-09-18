@@ -7,3 +7,4 @@ def sieve_of_eratosthenes(n):
                 A[j] = False
     return [x for x in range(n + 1) if A[x]]# Collect and return all prime numbers
     
+print(sieve_of_eratosthenes(20))

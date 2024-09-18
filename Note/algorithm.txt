@@ -5,9 +5,10 @@ sort:
     insertion sort
 
 search:
+    sequential search
     exhaustive search 
         traveling salesman problem (Hamilton circuit)
         knapsack problem
-
+        assignment
 string matching
 closet pair problem
