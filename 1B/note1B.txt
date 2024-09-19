@@ -1,0 +1,17 @@
+data structure:
+    a particular scheme of organizing related data items.
+
+array
+linked list
+list
+stack 
+queue
+priority queue
+heap
+graph
+    weight graph
+    cycle - acyclic
+    tree: 
+        rooted tree
+        ordered tree - binary tree
+        
