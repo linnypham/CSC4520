@@ -1,0 +1,58 @@
+algorithm: 
+    Any well-defined computational procedure that takes
+    some value, or set of values, as input and produces some value, 
+    or set of values, as output in a finite amount of time.
+    A tool for solving a well-specified computational problem.
+    Two main issues related to algorithms: 
+        How to design algorithms 
+        How to analyze algorithm efficiency
+            predicting the resources that the algorithm requires:
+                Memory
+                Communication bandwidth
+                Energy consumption
+                Computational time
+                The Worst-case analysis
+                The Best-case analysis
+                The Average-case analysis
+                Asymptotic analysis
+                Order of Growth
+
+
+brute force:
+    Bubble sort
+    Selection sort
+    Closest pair problems
+    String matching
+    Travelling Salesman problems
+    Knapsack problem
+    Graph Traversal
+Decrease and conquer:
+    insertion sort
+    Topological sorting
+    Algorithms for generating permutations, subsets
+Divide and conquer:
+    Merge sort
+    Quick sort
+    The closest pair problem
+Transform and conquer:
+    Balanced trees (AVL,2-3 trees)
+    Heaps and Heapsort
+Space and time tradeoffs
+    Counting sort
+    Hashing
+    String matching
+Dynamic programming
+    Optimal solutions
+    Efficient recursion
+    The shortest path problems
+Greedy technique
+    Tree problems (MST)
+    Huffman trees and codes
+
+Sorting (Insertion, Merge, Quick, Bubble, Selection, Counting, Heap...)
+Searching (Binary, Linear...)
+String Processing (Matching, splitting)
+Graph Problems (Shortest path, transitive closure, minimum spanning trees, social networks)
+Combinatorial Problems (Generating permutation, combinations)
+Geometric Problems (The closest-pair problem)
+Numerical Problems (Matrix multiplication, GCD,LCM)
