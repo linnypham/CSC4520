@@ -1,0 +1,7 @@
+Big O: lower of same order of growth (faster)
+Big Omega: higher of same order of growth (slower)
+Big Theta: same order of growth 
+
+L'Hopital's rule
+Stirling's formula:
+    n! = sqrt(2pi*n)(n/e)^n

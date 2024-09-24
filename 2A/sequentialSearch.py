@@ -15,5 +15,5 @@ def linearSearch(arr,x):
     return -1
     
 a = [1,2,3,4,6,0]
-print(sequentialSearch(a,0))
-print(linearSearch(a,0))
+print(sequentialSearch(a,1))
+print(linearSearch(a,1))

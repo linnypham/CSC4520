@@ -8,8 +8,8 @@ Pratical imporcance:
     A practictioner's tool kit mof know algorithms
     Framework for designing and analyzing algorithm for new problems
 
-Time efficiency
-Space efficiency
+Time efficiency is measured by counting the number of times the algorithm’s basic operation is executed
+Space efficiency is measured by counting the number of extra memory units consumed by the algorithm
 
 Analyzing algorithms : 
     predicting the resources that the algotism requires
@@ -23,4 +23,9 @@ RAM Model:
     DATA MOVEMENT
     CONTROL
 
-Insert Sor:
+Insert Sort:
+Input Size:
+Running Time:
+Basic operation: The operation contributing  the most to the total running time
+Order of Growth:
+    logn < n < nlogn < n^2 < n^3 < 2^n < n!
