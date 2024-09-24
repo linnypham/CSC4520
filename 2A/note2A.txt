@@ -1,0 +1,19 @@
+algorithm: 
+    well-defined computational procedure that takes 
+    some value, or set of values, as input and produces 
+    some value, or set of values, as output in 
+    a finite amount of time.
+Theoretical importance: The code of computer science
+Pratical imporcance: 
+    A practictioner's tool kit mof know algorithms
+    Framework for designing and analyzing algorithm for new problems
+
+Time efficiency
+Space efficiency
+
+Analyzing algorithms : 
+    predicting the resources that the algotism requires
+        Memory
+        Communicaiton bandwith
+        Energy consumption
+        Computational time
