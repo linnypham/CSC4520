@@ -17,3 +17,10 @@ Analyzing algorithms :
         Communicaiton bandwith
         Energy consumption
         Computational time
+RAM Model:  
+    Instructions execute one after another, with no concurrent operations.
+    AIRTHMETIC
+    DATA MOVEMENT
+    CONTROL
+
+Insert Sor:

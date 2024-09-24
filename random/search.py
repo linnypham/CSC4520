@@ -43,3 +43,9 @@ def verifyUnique(arr):
         unique.add(i)
     return True
 
+def linearSearch(arr,x):
+    n = len(arr)
+    for i in range(n):
+        if arr[i] == x:
+            return i
+    return -1
