@@ -1,0 +1,15 @@
+for (i = 0, i < n, i++)     Θ (n)
+for (i = 0, i < n, i=i+2)   n/2 >> Θ (n)
+for (i = n, i > n, i--)     Θ (n)
+for (i = 1, i < n, i=i*2)   Θ (log 2 n)
+for (i = 1, i < n, i=i*3)   Θ (log 3 n)
+for (i = n, i > 1, i=i/2)   Θ (log 2 n)
+
+recursion: the function calls itself until it reaches the base case (memory-intensive)(easier to read)
+iteration: the program executes a loop until a condition is met (less memory)(complex )
+RecursionError: maximum recursion depth exceeded
+Recursive function must always have at least
+one Base Case and one Recursive Case
+
+
+
