@@ -1,0 +1,4 @@
+decrease-and-conquer
+    by a constant
+    by a constant factor
+    variable-size decrease
