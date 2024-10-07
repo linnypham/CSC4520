@@ -1,0 +1,8 @@
+sieve 
+euclid
+worst/best case analysis
+input size/basic operation
+theoretical analysis of time efficiency
+order of growth
+dfs/bfs
+lomuto
