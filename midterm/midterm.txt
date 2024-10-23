@@ -1,8 +1,43 @@
-sieve 
+algorithm: 
+sieve
 euclid
-worst/best case analysis
-input size/basic operation
-theoretical analysis of time efficiency
-order of growth
-dfs/bfs
-lomuto
+how good is the algorithm:
+    time efficiency
+    space efficiency
+insertion sort:
+    best case: inputs are sorted
+    worst case: inputs are reversed sorted
+why focus on worst case?
+    worst-case running time of an algorithm gives an upper bound on the running time for any input
+        a guarantee that the algorithm never takes any longer
+        important for real-time computing,in which operations must complete by a deadline
+    for some algorithms, the wors case occurs fairly often
+        target is not available in search input
+    the average case is often roughly as bas as the worst case
+        insertion sort
+
+basic operation: the operation contributing the most to the total running time.
+    usually the most-time consuming operation
+Sorting algorithms: the basic operation is a key comparision
+Mathematical problems: four arithmetical operations
+    division>multiplication>addition AND subtraction
+
+problem             Input size          Basic operation
+searching           n                   Key operation
+multiplication      matrix dimensions   multiplication of 2 numbers
+                    or total number 
+                    of elements
+checking primality  n                   division
+of an integer
+graph problem       vertices and/or     visiting a vertex or traversing an edge
+                    edges   
+
+time efficiency: determine the number of repetitions of the basic operation as a function of input size
+
+order of growth: big theta 
+    insertion sort O(n^2) (worst), O(n) (best)
+
+logn < n < n logn < n^2 < n^3 < 2^n < n!
+
+Time efficieny is measured by counting the number of times the algorothm's basic operation is executed
+Space efficiency is measured by countin gthe number of extra memory units consumed by the algorithm
