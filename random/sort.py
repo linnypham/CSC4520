@@ -10,7 +10,9 @@ def insertionSort(arr):
         while j >= 0 and key < arr[j]:  # Move elements greater than key one position ahead
             arr[j + 1] = arr[j]  # Shift elements to the right
             j -= 1
+            print(arr)
         arr[j + 1] = key
+        print(arr) 
 
 def bubbleSort(arr):
     n = len(arr)
@@ -72,3 +74,7 @@ def selectionSort(arr): #time:(n(n-1))/2
             if arr[min_idx] > arr[j]:
                 min_idx = j
         arr[i], arr[min_idx] = arr[min_idx], arr[i]# Swap the found minimum element with the first element  
+
+
+arr = [A, L, G, O ,R, I, T, H, M, S]
+insertionSort(arr)
