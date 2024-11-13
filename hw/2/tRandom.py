@@ -19,8 +19,6 @@ def algoTime(func,arr):
 
     return end_time - start_time
 
-    
-    
 def timeArray(arr100,arr200,arr300,arr400,arr500,arr1000):
     arr = [arr100,arr200,arr300,arr400,arr500,arr1000]
     for i in range(6):
