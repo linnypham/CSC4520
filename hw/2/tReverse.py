@@ -11,9 +11,8 @@ def algoTime(func,arr):
 
     return end_time - start_time
 
-def timeArray(arr100,arr200,arr300,arr400,arr500,arr1000):
-    arr = [arr100,arr200,arr300,arr400,arr500,arr1000]
-    for i in range(6):
+def timeArray(arr):
+    for i in range(len(arr)):
         timeBubble.append(algoTime(bubble_sort, arr[i].copy()))
         timeSelection.append(algoTime(selection_sort, arr[i].copy()))
         timeInsertion.append(algoTime(insertion_sort, arr[i].copy()))
@@ -35,8 +34,8 @@ arr1000 = reverseSortedArr(1000)
 timeBubble = []
 timeSelection = []
 timeInsertion = []
-
-timeArray(arr100,arr200,arr300,arr400,arr500,arr1000)
+arr = [arr100,arr200,arr300,arr400,arr500,arr1000]
+timeArray(arr)
 
 
 x = [len(arr100),len(arr200),len(arr300),len(arr400),len(arr500),len(arr1000)]
