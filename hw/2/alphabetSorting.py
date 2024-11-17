@@ -94,21 +94,21 @@ def merge(arr, l, m, r):
             arr[k] = R[j]
             j += 1
         k += 1
- 
+        
     # Copy the remaining elements of L[], if there
     # are any
     while i < n1:
         arr[k] = L[i]
         i += 1
         k += 1
- 
+        
     # Copy the remaining elements of R[], if there
     # are any
     while j < n2:
         arr[k] = R[j]
         j += 1
         k += 1
- 
+    print(' '.join(arr))
 def mergeSort(arr, l, r):
     if l < r:
  
@@ -127,4 +127,5 @@ def mergeSort(arr, l, r):
 arr = 'EXAMPLE'
 input = list(arr)
 print(arr)
-mergeSort(input,0,len(input)-1)
+print()
+quickSort(input,0,len(input)-1)
