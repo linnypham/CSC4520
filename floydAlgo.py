@@ -1,0 +1,21 @@
+def floyd(grid):
+    m = len(grid)
+    for k in range(m):  
+        for i in range(m):  
+            for j in range(m): 
+                grid[i][j] = min(grid[i][j], grid[i][k] + grid[k][j])
+    return grid
+
+    
+
+
+grid = [[0,5,float('inf'),float('inf')],
+        [float('inf'),0,1,float('inf')],
+        [8,float('inf'),0,3],
+        [2,float('inf'),float('inf'),0]]
+
+for i in range(len(grid)):
+    floyd(grid)
+for line in grid:
+    print(line)       
+
