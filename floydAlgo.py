@@ -6,16 +6,18 @@ def floyd(grid):
                 grid[i][j] = min(grid[i][j], grid[i][k] + grid[k][j])
     return grid
 
+def floydAlgo(grid):
+    for i in range(len(grid)):
+        floyd(grid)
     
 
 
-grid = [[0,5,float('inf'),float('inf')],
-        [float('inf'),0,1,float('inf')],
-        [8,float('inf'),0,3],
+grid = [[0,3,float('inf'),7],
+        [8,0,2,float('inf')],
+        [5,float('inf'),0,1],
         [2,float('inf'),float('inf'),0]]
 
-for i in range(len(grid)):
-    floyd(grid)
+floydAlgo(grid)
 for line in grid:
     print(line)       
 
