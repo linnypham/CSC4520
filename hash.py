@@ -8,7 +8,7 @@ def closeHashing(arr,nb):
     close_arr = [None]*nb
     for num in arr:
         loc = num%nb
-        for i in range(loc,nb):
+        while 
             if close_arr[i] == None:
                 close_arr[i] = num
                 break
